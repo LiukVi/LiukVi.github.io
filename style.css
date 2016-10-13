@@ -1,0 +1,291 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px;
+    font-family: Roboto, sans-serif;
+}
+
+
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  color: red;
+  text-shadow: 5px;
+}
+.text-vcenter h1 {
+    text-shadow: 40px;
+}
+  
+/* First background image */
+#home {
+  background: url(https://k43.kn3.net/taringa/4/2/3/9/2/7/9/justin10/139.jpg?3660) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#scrolling {
+  background: url(imgs/bello.jpg) no-repeat center center fixed;
+  display: table;
+  height: 50%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+.col-lg-12 {
+    padding-top: 3%;
+    font-size: 300%;
+
+}
+
+.row {
+    padding-bottom: 10%;
+}
+
+.col-md-4 {
+    text-align: center;
+    margin-top: 3%;
+}
+.col-md-4 img {
+  margin: 0 auto;
+}
+.col-md-4 h4 {
+  margin-top: 3%;
+  margin-bottom: 0;
+  text-transform: none;
+}
+.col-md-4 p {
+  margin-top: 3%;
+}
+
+/*timeline*/
+
+#Avanzamenti_progetto {
+    padding-top: 2%;
+}
+
+#Sposta-sotto {
+    width: 100%;
+}
+
+.timeline {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+}
+ 
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  background-color: #eee;
+  left: 50%;
+  margin-left: -1.5px;
+}
+ 
+.tldate {
+  display: block;
+  width: 200px;
+  background: white;
+  border: 1px solid #65737e;
+  color: #2E2E28;
+  margin: 0 auto;
+  padding: 3px 0;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+}
+ 
+.timeline li {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+/** timeline panels **/
+.timeline li .timeline-panel {
+  width: 46%;
+  float: left;
+  background: #fff;
+  border: 1px solid #d4d4d4;
+  padding: 20px;
+  position: relative;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+ 
+/** panel arrows **/
+.timeline li .timeline-panel:before {
+  position: absolute;
+  top: 26px;
+  right: -15px;
+  display: inline-block;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #ccc;
+  border-right: 0 solid #ccc;
+  border-bottom: 15px solid transparent;
+  content: " ";
+}
+ 
+.timeline li .timeline-panel:after {
+  position: absolute;
+  top: 27px;
+  right: -14px;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+.timeline li .timeline-panel.noarrow:before, .timeline li .timeline-panel.noarrow:after {
+  top:0;
+  right:0;
+  display: none;
+  border: 0;
+}
+ 
+.timeline li.timeline-inverted .timeline-panel {
+  float: right;
+}
+ 
+.timeline li.timeline-inverted .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+ 
+.timeline li.timeline-inverted .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+
+/*FOOTER*/
+
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;    
+}
+
+.btn, .form-control {
+    border-radius: 2px;
+    box-shadow: none !important;
+}
+
+/*FOOTER*/
+.footer a {
+    color: #DDD;
+}
+
+.footer a:hover,
+.footer a:focus,
+.footer a:active {
+    color: #FFF;
+}
+
+.footer .footer {
+    background-color: #2E3436;
+    padding: 35px 0;
+    margin-top: 5em;
+}
+
+.footer .footer .footer-desc p {
+    color: #DDD;
+    margin: 15px 0 8px;
+}
+
+.footer .footer .social {
+    margin: 0 auto;
+    display: table;
+}
+
+.footer .footer .social li {
+    float: left;
+}
+
+.footer .footer .social li a {
+    display: block;
+    font-size: 1em;
+    color: #DDD;
+    width: 30px;
+    height: 30px;
+    line-height: 32px;
+    text-align: center;
+    background-color: #222728;
+    border-radius: 2px;
+    margin: 15px 4px
+}
+
+.footer .footer .social li a:hover {
+    background-color: #3A4144;
+}
+
+.footer .footer .input-group {
+    margin: 15px 0;
+}
+
+.footer .footer .form-control {
+    border-radius: 2px 0 0 2px;
+    background-color: #585C5D;
+    border-color: #585C5D;
+    color: #DDD;
+    font-size: 15px;
+}
+
+.footer .footer .form-control:hover,
+.footer .footer .form-control:focus {
+    border: 1px solid #222728;
+    background-color: #222728;
+}
+
+.footer .footer .input-group-addon {
+    border-radius: 0 2px 2px 0;
+    background-color: #F7931D;
+    color: #FFF;
+    border-color: #F7931D;
+    font-size: 15px;
+}
+
+.footer .footer-bottom {
+    background-color: #222728;
+    padding: 15px 0;
+    color: #DDD;
+    font-size: 13px;
+}
+
+.footer .footer-bottom ul li {
+    display: inline-block;
+}
+
+
+
+
